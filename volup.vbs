@@ -1,3 +1,4 @@
+WScript.Sleep 180000
 do
 Set WshShell = CreateObject("WScript.Shell")
 WshShell.SendKeys(chr(&hAF))
