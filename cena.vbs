@@ -2,7 +2,7 @@ While true
 	Dim oPlayer
 	Set oPlayer = CreateObject("WMPlayer.OCX")
 
-  WScript.Sleep 60000
+  WScript.Sleep 86400000
 
 	oPlayer.URL = "https://github.com/karimodm/rubber-pranks/raw/master/cena.mp3"
 	oPlayer.controls.play 
